@@ -62,7 +62,7 @@ private extension SKToolbar {
         setBackgroundImage(UIImage(), forToolbarPosition: .any, barMetrics: .default)
         
         // toolbar
-        if !(browser?.showToolBar)! {
+        if !SKPhotoBrowserOptions.displayToolbar {
             isHidden = true
         }
     }
